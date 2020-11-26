@@ -1,6 +1,6 @@
 <?php
 /*
-    Ülesanne 1
+    Ülesanne 2
     Karl-August Kongo
     24.11.2020
  */
