@@ -55,9 +55,9 @@ $kulg1 = $_POST['kulg1'];
 $kulg2 = $_POST['kulg2'];
 
 if ($kulg1 == $kulg2){
-    echo'Ruut.';
+    echo'∎.';
 }   else {
-    echo'Ristkülik.';
+    echo'▃.';
 }
 */
 
