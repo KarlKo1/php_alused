@@ -101,4 +101,42 @@ echo 'Kõige pikema riigi nime märkide arv on '.max($pikkus).'.';
 
 
 
-//Hiina nimed
+/*Hiina nimed
+$nimed = array("瀚聪","月松","雨萌","展博","雪丽","哲恒","慧妍","博裕","宸瑜","奕漳",
+    "思宏","伟菘","彦歆","睿杰","尹智","琪煜","惠茜","晓晴","志宸","博豪",
+    "璟雯","崇杉","俊誉","军卿","辰华","娅楠","志宸","欣妍","明美");
+
+sort($nimed);
+var_dump($nimed);
+echo "<br> Esimene: ".$nimed[1]."<br>";
+echo "Viimane: ".$nimed[28];
+*/
+
+
+
+/*Google
+$nimed = array("Indonesia","Canada","Kyrgyzstan","Germany","Philippines",
+    "Philippines","Canada","Philippines","South Sudan","Brazil",
+    "Democratic Republic of the Congo","Indonesia","Syria","Sweden",
+    "Philippines","Russia","China","Japan","Brazil","Sweden","Mexico","France",
+    "Kazakhstan","Cuba","Portugal","Czech Republic");
+
+$nimi = $_POST['nimi'];
+
+if (in_array($_POST['nimi'], $nimed)) {
+    echo '<script>alert("On olemas selline nimi")</script>';
+}   else { echo '<script>alert("Ei ole sellist nime")</script>';
+}
+*/
+
+
+
+//Pildid
+
+echo "Kolmas pilt: <img src='img/peterus.jpg'><br> <br><br>";
+$directory = 'img';
+$images = glob($directory . "/*.jpg");
+foreach($images as $image)
+{
+    echo '<img src="'.$image.'" />';
+}
