@@ -1,8 +1,8 @@
 <?php
 /*
-    Ülesanne 3
+    Ülesanne 6
     Karl-August Kongo
-    26.11.2020
+    09.12.2020
  */
 
 /*Genereeri
