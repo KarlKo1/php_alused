@@ -66,7 +66,6 @@ for ($i=0;$i<count($poisid);$i++) {
 */
 
 
-
 //Massiivid ja tsüklid (Bonus)
 $poisid = array("Karl", "Kevin", "Kert", "Rico");
 $tudrukud = array("Kaisa", "Mari", "Sandra", "Kristiina");
