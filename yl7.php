@@ -22,6 +22,7 @@ echo tervita();
 //Arvud
 
 
+
 //Ristküliku pindala
 
 
