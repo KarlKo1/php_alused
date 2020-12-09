@@ -16,8 +16,11 @@ echo tervita();
 
 
 //Kasutajanimi ja email
-
-
+$nimi = $_POST['nimi'];
+function ($nimi) {
+    $nimii = (strtolower($nimi));
+    echo $nimii;
+}
 
 //Arvud
 
