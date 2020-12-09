@@ -5,11 +5,26 @@
     26.11.2020
  */
 
-//Tervitus
+/*Tervitus
 function tervita(){
     return "Tere päiksekesekene!";
 }
 
 echo tervita();
-
+*/
 //Liitu uudiskirjaga
+
+
+//Kasutajanimi ja email
+
+
+//Arvud
+
+
+//Ristküliku pindala
+
+
+//Isikukood
+
+
+//Head mõtted
