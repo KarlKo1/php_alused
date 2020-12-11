@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Karl-August Kongo yl7</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
 <?php
 /*
     Ülesanne 7
@@ -9,10 +16,22 @@
 function tervita(){
     return "Tere päiksekesekene!";
 }
-
 echo tervita();
 */
-//Liitu uudiskirjaga
+
+
+
+/*Liitu uudiskirjaga
+
+function uudiskiri() {
+    echo '<form>
+        Genereeri liitumise vorm<input type="text" name="uudisk" id="uudisk" ><br>
+        <input type="submit" value="Liitu uudiskirjaga">
+    </form>';
+}
+echo uudiskiri();
+
+*/
 
 
 //Kasutajanimi ja email
@@ -51,6 +70,8 @@ echo pindala($alus, $korgus);
 */
 
 
+
+
 /*Isikukood
 $isik = $_POST['isik'];
 function isikukood($isik)
@@ -69,17 +90,22 @@ echo isikukood($isik);
 */
 
 
-//Head mõtted
+
+
+/*Head mõtted
 function mote()
 {
     $alus = array('Koer', 'Kass', 'Mees', 'Naine');
     $oeldis = array('kõnnib', 'jookseb', 'hüppab', 'vaatab');
     $sihitis = array('poodi', 'laevale', 'kiiresti', 'aeglasti');
 
-    $rand1 = rand(1, 4);
-    $rand2 = rand(1, 4);
-    $rand3 = rand(1, 4);
+    $rand1 = rand(0, 3);
 
-    echo $alus[$rand1] . " " . $oeldis[$rand2] . " " . $sihitis[$rand3] . ".";
+
+    echo $alus[$rand1]." ".$oeldis[$rand1]." ".$sihitis[$rand1];
 }
 echo mote();
+*/
+?>
+</body>
+</html>
